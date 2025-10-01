@@ -1,10 +1,10 @@
 [versions]
-agp = "8.10.1"
-kotlin = "2.1.21"
-coreKtx = "1.16.0"
+agp = "8.13.0"
+kotlin = "2.2.20"
+coreKtx = "1.17.0"
 appcompat = "1.7.1"
-material = "1.12.0"
-androidxNavigation = "2.9.0"
+material = "1.13.0"
+androidxNavigation = "2.9.5"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }

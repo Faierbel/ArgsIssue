@@ -5,6 +5,7 @@ coreKtx = "1.17.0"
 appcompat = "1.7.1"
 material = "1.13.0"
 androidxNavigation = "2.9.6"
+googleServices = "4.4.4"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -16,4 +17,5 @@ androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fr
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 androidxNavigationSafeArgs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "androidxNavigation" }
+googleServices = { id = "com.google.gms.google-services", version.ref = "googleServices" }
 
